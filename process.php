@@ -23,7 +23,7 @@ if(isset($_POST['subscribe'])){
 
          send_mail([
              'to' => $email,
-             'from' => 'Creative Tools',
+             'from' => 'Musira Codes',
              'message' => $message,
              'subject' => 'Verify Email'
          ]);
